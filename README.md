@@ -10,5 +10,20 @@
 - [ ] localstorage features
 - [ ] friendly README
 
-### Current Status
+### Current Status Show
 ![current_status](./docs/img1.png)
+
+### Installation
+```shell
+git clone https://github.com/lewenweijia/vanilla-react-weather-app.git
+cd vanilla-react-weather-app
+yarn install
+yarn start
+
+# To build the app for production, run the following command:
+yarn build
+```
+
+
+### LICENSE
+MIT
