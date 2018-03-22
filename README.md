@@ -11,7 +11,7 @@
 - [ ] friendly README
 
 ### Current Status Show
-![current_status](./docs/img1.png)
+![current_status](./screenshots/img1.png)
 
 ### Installation
 ```shell
