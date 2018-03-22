@@ -10,6 +10,11 @@
 - [ ] localstorage features
 - [ ] friendly README
 
+### 项目描述
+- 使用create-react-app建立起项目的脚手架
+- 使用高德地图的行政区域查询接口和天气查询接口
+
+
 ### Current Status Show
 ![current_status](./screenshots/img1.png)
 
