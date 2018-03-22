@@ -1,6 +1,4 @@
 ## Vanilla React weather app implementation based on REST API services
-### Current Status
-![current_status](./docs/img1.png)
 
 ### Task List
 - [x] ~~Skeleton~~
@@ -11,3 +9,6 @@
 - [ ] engaging UI
 - [ ] localstorage features
 - [ ] friendly README
+
+### Current Status
+![current_status](./docs/img1.png)
