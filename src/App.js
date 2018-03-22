@@ -29,7 +29,7 @@ export default class extends Component {
     return (
       <div style={{ marginLeft: 50 }}>
         <h1>广东省市级天气查询</h1>
-        <table>
+        <table style={{ background: "#fcfcaa" }}>
           <thead>
             <tr>
               <th>城市</th>
@@ -41,9 +41,18 @@ export default class extends Component {
                   <tr key={city.adcode}>
                     <td>{city.name}</td>
                     <td>
-                      <button onClick={() => this.handleClick(city.adcode)}>
+                      <button
+                        onClick={() => this.handleClick(city.adcode)}
+                        style={{ border: "none", padding: 10 }}
+                      >
                         Get the Weather
                       </button>
+                    </td>
+                    <td>
+                      <span>Weather Info: </span>
+                      {this.state.weathers[city.adcode]
+                        ? this.state.weathers[city.adcode].weather
+                        : null}
                     </td>
                   </tr>
                 ))
