@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import "./App.css";
+import GithubCorner from "react-github-corner";
 
 import { fetchCitysInfo, fetchCityWeatherInfo } from "./utils";
 
@@ -28,8 +28,9 @@ export default class extends Component {
   render() {
     return (
       <div style={{ marginLeft: 50 }}>
+        <GithubCorner href="https://github.com/lewenweijia/vanilla-react-weather-app" />
         <h1>广东省市级天气查询</h1>
-        <table style={{ background: "#fcfcaa" }}>
+        <table style={{ background: "white", borderRadius: 5 }}>
           <thead>
             <tr>
               <th>城市</th>
@@ -43,7 +44,13 @@ export default class extends Component {
                     <td>
                       <button
                         onClick={() => this.handleClick(city.adcode)}
-                        style={{ border: "none", padding: 10 }}
+                        style={{
+                          border: "none",
+                          padding: 10,
+                          background: "#588DFF",
+                          color: "white",
+                          borderRadius: 5
+                        }}
                       >
                         Get the Weather
                       </button>

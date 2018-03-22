@@ -1,6 +1,6 @@
 const API_KEY = "848da042ee8ec428269dea5432ede9f8"
 
-const API_SERVICE_BASE_URL = "http://restapi.amap.com/v3/config/district?"
+const API_SERVICE_BASE_URL = "https://restapi.amap.com/v3/config/district?"
 
 const options = {
   key: API_KEY,
@@ -28,7 +28,7 @@ async function fetchCitysInfo() {
 }
 
 async function fetchCityWeatherInfo(adcode) {
-  const res = await fetch(`http://restapi.amap.com/v3/weather/weatherInfo?key=${API_KEY}&city=${adcode}`)
+  const res = await fetch(`https://restapi.amap.com/v3/weather/weatherInfo?key=${API_KEY}&city=${adcode}`)
   return await res.json()
 }
   

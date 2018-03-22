@@ -5609,6 +5609,10 @@ react-error-overlay@^4.0.0:
   version "4.0.0"
   resolved "http://registry.npm.taobao.org/react-error-overlay/download/react-error-overlay-4.0.0.tgz#d198408a85b4070937a98667f500c832f86bd5d4"
 
+react-github-corner@^2.1.0:
+  version "2.1.0"
+  resolved "http://registry.npm.taobao.org/react-github-corner/download/react-github-corner-2.1.0.tgz#559363f5407e932db47e942f639d165e81827be4"
+
 react-scripts@1.1.1:
   version "1.1.1"
   resolved "http://registry.npm.taobao.org/react-scripts/download/react-scripts-1.1.1.tgz#279d449f7311fed910506987a1ade014027788a8"
