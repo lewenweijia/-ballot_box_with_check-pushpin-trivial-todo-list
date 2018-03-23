@@ -1,6 +1,6 @@
 ## Vanilla React weather app implementation based on REST API services
 
-### Task List
+### Tasks List
 - [x] ~~Skeleton~~
 - [x] ~~Data fetching~~
      - [x] ~~adcode~~
